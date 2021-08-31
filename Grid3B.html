@@ -63,7 +63,15 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container h-100 minHeight">
+        <div class="container h-100 minHeight">
+            <ul class="nav nav-pills mb-1">
+                <li class="nav-item">
+                    <a href="/Grid3.html" class="nav-link" >Grid 3</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/Grid3B.html" class="nav-link active" aria-current="page">Grid 3B</a>
+                </li>
+            </ul>
            <div class="row">
                <!--Left column-->
                <div class="col-7">
@@ -74,27 +82,29 @@
                    </div>
                </div>
                <!--Right column -->
-               <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+               <div class="col-5">
                    <!--Right Top Column-->
-                   <div class="bg-dark text-light h-50 p-2 overflow-auto">
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                   </div>
+                    <div class="bg-secondary text-light p-2">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
                    <!--Right Bottom Column-->
-                   <div class="bg-dark text-light h-50 mt-2 p-2 overflow-hidden">
-                        <p>Lorem ipsum dolor sit amet. Ea is overte molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                        <p>Lorem ipsum dolor sit amet. Ea iste molestias <em>Quo voluptatem qui porro nisi</em>. In officia aperiam ex praesentium dolor <strong>Ut esse vel repellendus commodi aut doloribus dolorem qui placeat voluptatem</strong> id sunt repellat. Sunt galisum nam enim quia id adipisci exercitationem et dolorem dolorem sed natus sunt sit natus eius. Sed magni galisum in aliquam  ut impedit delectus et consequatur dolorum. </p>
-                    </div>
-
-                   <div class=" bg-dark text-light border border-top p-2"> 
-                       <button class="btn btn-light" type="button">Read More</button>
-                    </div>
+                    <div class="bg-dark text-light mt-2 p-2">
+                          <h5>More Articles</h5>
+                          <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Article One</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Article Two</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Article Three</a>
+                            </li>
+                          </ul>  
+                    </div>                   
                </div>
            </div>
        </div>
